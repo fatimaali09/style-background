@@ -1,0 +1,46 @@
+*,body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+#pink_button{
+    width: 100px;
+    height: 100px;
+    pad: 10px;
+    border: 2px solid palevioletred;
+    border-radius: 50%;
+    background-color: pink;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#blue_button{
+    width: 100px;
+    height: 100px;
+    pad: 10px;
+    border: 2px solid rgb(3, 3, 159);
+    border-radius: 50%;
+    background-color: rgb(78, 78, 255);
+    margin: 10px;
+    cursor: pointer;
+}
+
+#yellow_button{
+    width: 100px;
+    height: 100px;
+    pad: 10px;
+    border: 2px solid rgb(255, 187, 78);
+    border-radius: 50%;
+    background-color: rgb(255, 252, 78);
+    margin: 10px;
+    cursor: pointer;
+}
